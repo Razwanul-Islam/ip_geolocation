@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "create-react-app": "^1.4.3",
+    "google-map-react": "^2.0.8",
+    "ipware": "^2.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -11,9 +13,9 @@
     "save": "^2.3.1"
   },
   "scripts": {
-    "start": "HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
+    "start": "react-scripts start",
     "pretest": "npm install",
-    "test": "rm -rf ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
+    "test": ""
   },
   "devDependencies": {
     "chai": "^4.1.2",
